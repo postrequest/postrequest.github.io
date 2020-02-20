@@ -1,1 +1,19 @@
-theme: jekyll-theme-minimal
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+#skin: "/assets/css/skins/dark.css"
+
+# custom properties
+title: "postrequest"
+description: "<a href=\"https://github.com/postrequest/\">View my GitHub profile.</a>"
+paginate: 10
+paginate_path: /page:num/
+tag_archive_path: "/tags/#"
+
+author:
+  name: postrequest
+  links:
+    - title: GitHub
+      url: https://github.com/postrequest
+      icon: fab fa-github-square
+
+footer_links: false
+copyright: "<p>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}."
