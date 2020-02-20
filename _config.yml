@@ -16,4 +16,4 @@ author:
       icon: fab fa-github-square
 
 footer_links: false
-copyright: "<p>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}."
+copyright: "<p>&copy; 2020 postrequest."
